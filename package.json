@@ -18,10 +18,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prestart-mac": "rm ./node_modules/webpack-dev-server/ssl/server.pem && cp -f ./ssl/server.pem ./node_modules/webpack-dev-server/ssl",
-    "first-start-mac": "cp -f ./ssl/server.pem ./node_modules/webpack-dev-server/ssl",
-    "prestart-windows": "rd ./node_modules/webpack-dev-server/ssl/server.pem && cp -f ./ssl/server.pem ./node_modules/webpack-dev-server/ssl",
-    "first-start-windows": "cp -f ./ssl/server.pem ./node_modules/webpack-dev-server/ssl",
     "start": "env-cmd -f ./.env.localhost react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
