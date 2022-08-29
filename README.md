@@ -13,3 +13,7 @@ Project to show firefox is not compatible in react with QuoteMedia qMods
 3: npm start
 4: Open browser at : https://dev.invest.inc:3000/
 5: Allow browser to bypass security: Advanced settings - procceed to unsafe(You know site is safe because it is your localsite). 
+
+# Firefox Issue
+qMods will not load if using custom templates.
+You can remove the custom template and the qmod will load. Simple remove the script tag including its contents to see.
