@@ -4,7 +4,7 @@ Project to show firefox is not compatible in react with QuoteMedia qMods
 
 # Project Setup
 1: npm install
-2: redirect localhost to dev.invest.inc to allow qMod loading on allowed domains 
+2: redirect localhost to dev.invest.inc to allow qMod loading on "allowed domains" or change the data-qmod-wmid in the React.useEffect with an wmid that allows localhost.
     Mac: 
         1: from the root directory: sudo nano /etc/hosts
         2: add line: 0.0.0.0 dev.invest.inc
